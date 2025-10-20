@@ -1,0 +1,21 @@
+# License
+
+## Prohibited Actions
+1. **Redistribution Prohibited**
+   - Redistribution of this mod is strictly prohibited.
+   - Uploading or sharing this mod on other websites or platforms is not allowed.
+
+2. **Claiming as Your Own Prohibited**
+   - Claiming this mod as your own creation is strictly prohibited.
+
+## Permitted Actions
+1. **Modification Prohibited**
+   - Modifying the code or content of this mod is strictly prohibited.
+
+2. **Use in Videos and Monetization Allowed**
+   - You are allowed to create and publish videos using this mod.
+   - Monetization of such videos is also permitted.
+
+## Notes
+- The author is not responsible for any issues or damages caused by the use of this mod.
+- This license is subject to change without prior notice.
