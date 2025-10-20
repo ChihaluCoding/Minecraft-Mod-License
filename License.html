@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Mod License</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin: 5px 0;
+        }
+        .language {
+            margin-bottom: 20px;
+        }
+    </style>
+    <script>
+        function switchLanguage(lang) {
+            document.querySelectorAll('.en, .jp').forEach(el => {
+                el.style.display = 'none';
+            });
+            document.querySelectorAll(`.${lang}`).forEach(el => {
+                el.style.display = 'block';
+            });
+        }
+    </script>
+</head>
+<body onload="switchLanguage('en')">
+    <div class="language">
+        <button onclick="switchLanguage('en')">English</button>
+        <button onclick="switchLanguage('jp')">日本語</button>
+    </div>
+
+    <div class="en">
+        <h1>Minecraft Mod License</h1>
+
+        <h2>Prohibited Actions</h2>
+        <ul>
+            <li><strong>Redistribution Prohibited</strong><br>
+                Redistribution of this mod is strictly prohibited. Uploading or sharing this mod on other websites or platforms is not allowed.
+            </li>
+            <li><strong>Claiming as Your Own Prohibited</strong><br>
+                Claiming this mod as your own creation is strictly prohibited.
+            </li>
+        </ul>
+
+        <h2>Permitted Actions</h2>
+        <ul>
+            <li><strong>Modification Prohibited</strong><br>
+                Modifying the code or content of this mod is strictly prohibited.
+            </li>
+            <li><strong>Use in Videos and Monetization Allowed</strong><br>
+                You are allowed to create and publish videos using this mod. Monetization of such videos is also permitted.
+            </li>
+        </ul>
+
+        <h2>Notes</h2>
+        <ul>
+            <li>The author is not responsible for any issues or damages caused by the use of this mod.</li>
+            <li>This license is subject to change without prior notice.</li>
+        </ul>
+    </div>
+
+    <div class="jp" style="display:none;">
+        <h1>マインクラフト Mod ライセンス</h1>
+
+        <h2>禁止事項</h2>
+        <ul>
+            <li><strong>二次配布の禁止</strong><br>
+                本Modの再配布を禁止します。他のウェブサイトやプラットフォームでの配布は許可されていません。
+            </li>
+            <li><strong>自作発言の禁止</strong><br>
+                本Modを自分が作成したと偽る行為を禁止します。
+            </li>
+        </ul>
+
+        <h2>許可事項</h2>
+        <ul>
+            <li><strong>改変の禁止</strong><br>
+                本Modのコードや内容を改変することを禁止します。
+            </li>
+            <li><strong>動画での使用および収益化の許可</strong><br>
+                本Modを使用した動画を作成し、公開することを許可します。動画の収益化も問題ありません。
+            </li>
+        </ul>
+
+        <h2>注意事項</h2>
+        <ul>
+            <li>本Modを使用したことによるいかなる問題や損害についても、作者は責任を負いません。</li>
+            <li>本ライセンスは予告なく変更される場合があります。</li>
+        </ul>
+    </div>
+</body>
+</html>
